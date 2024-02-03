@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: #F4CE14;
+
+}
+
+.parent{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.line{
+    background-color: black;
+    height: 200px;
+    width: 2px;
+    margin: auto;
+}
+
+.oc{
+    background-color: #EFECEC;
+    width: 30px;
+    height: 20px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.lamp{
+    background-color: #B4B4B3;
+    width: 28px;
+    height: 15px;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.light{
+    background-image: linear-gradient(white , transparent);
+    width: 200px;
+    height: 200px;
+    margin: -15px auto;
+    border-top-left-radius: 89px;
+    border-top-right-radius: 89px;
+    display: none;
+}
+
+.lamp:hover{
+    visibility: hidden;
+}
+
+.lamp:hover+.light{
+    display: block;
+}
